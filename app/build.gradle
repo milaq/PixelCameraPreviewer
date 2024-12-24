@@ -8,26 +8,15 @@ kotlin {
 }
 
 android {
-    namespace 'de.lukaspieper.gcam.services'
+    namespace 'com.milaq.pixelcamerapreviewer.services'
     compileSdk 34
 
     defaultConfig {
+        applicationId 'com.google.android.apps.photos'
         minSdk 19
         targetSdk 31
         versionCode 8
-        versionName "1.5.2"
-    }
-
-    flavorDimensions 'default'
-    productFlavors {
-        basic {
-            dimension 'default'
-            applicationId 'de.lukaspieper.gcam.services'
-        }
-        photos {
-            dimension 'default'
-            applicationId 'com.google.android.apps.photos'
-        }
+        versionName "1.0"
     }
 
     // No benefit outside of Google Play, disabled for IzzyOnDroid

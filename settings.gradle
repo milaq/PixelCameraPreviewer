@@ -12,5 +12,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name='Gcam Services Provider'
+rootProject.name='Pixel Camera Previewer'
 include ':app'

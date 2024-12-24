@@ -11,14 +11,8 @@
         android:theme="@android:style/Theme.NoDisplay"
         tools:targetApi="30">
 
-        <provider
-            android:name="de.lukaspieper.gcam.GServicesProvider"
-            android:authorities="com.google.android.gsf.gservices"
-            android:exported="true"
-            tools:ignore="ExportedContentProvider" />
-
         <activity
-            android:name="de.lukaspieper.gcam.PreviewRedirectActivity"
+            android:name="com.milaq.pixelcamerapreviewer.PreviewRedirectActivity"
             android:exported="true">
 
             <!-- Credits to Calyx developers: -->

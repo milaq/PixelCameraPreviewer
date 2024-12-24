@@ -1,4 +1,4 @@
-package de.lukaspieper.gcam
+package com.milaq.pixelcamerapreviewer
 
 import android.app.Activity
 import android.os.Bundle
